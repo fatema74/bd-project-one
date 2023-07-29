@@ -1,0 +1,17 @@
+@media (max-width: 850px){
+  .nav-menu{
+    display: none;
+  }
+  .header-right{
+    gap: 16px;
+  }
+  .mobile-btn{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 450px){
+  .btn{
+    display: none;
+  }
+}
