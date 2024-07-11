@@ -40,10 +40,10 @@
   .category-row{
     grid-template-columns: repeat(3, auto);
   }
-.about-row .about-left{
+.about-left{
   width: 100%;
   }
-  .about-row .about-right{
+.about-right{
   width: 100%;
   }
   .service-row{
@@ -82,13 +82,15 @@
 .cliant-row{
   grid-template-columns: repeat(1, auto);
 }
-  .blog-row{
+.blog-row{
   grid-template-columns: repeat(1, auto);
 }
 .blog-title-row .btn{
   display: none;
 }
-
+.footer-img1,.footer-img2{
+  display: none;
+}
 }
 
 
@@ -102,13 +104,7 @@
   .btn{
     display: none;
   }
-  .menu-row{
-  grid-template-columns: repeat(1, auto);
-}
-.category-row{
-    grid-template-columns: repeat(1, auto);
-  }
-  .team-row{
+  .menu-row, .category-row, .team-row{
   grid-template-columns: repeat(1, auto);
 }
 }
